@@ -1,0 +1,239 @@
+body{  
+    background-image: url(./images/image\ 4.png);  
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}  
+ul {  
+    display: flex;  
+    gap: 35px;  
+    justify-content: space-between;  
+}  
+li{  
+    list-style: none;  
+}  
+a{  
+    text-decoration: none;  
+    color: white ;  
+}  
+.menu{  
+    display: flex;  
+    align-items: center;  
+    gap: 50px;  
+}  
+nav{  
+    width: 100%;  
+}  
+p{  
+    color: black;  
+}  
+h1{ 
+    padding-top: 100px;  
+    padding-left: 100px; 
+    justify-content: center;  
+    align-items: center;  
+    color: white;  
+    font-family:'Franklin Gothic Medium'; 
+    font-style: normal; 
+    font-size: 80px; 
+    font-weight: 700; 
+    line-height: 10px; 
+ 
+}  
+h2{  
+    padding-top: 10px; 
+    padding-left: 100px; 
+    color: yellow;  
+    font-family:'Franklin Gothic Medium'; 
+    font-style: normal; 
+    font-size: 55px; 
+    font-weight: 500; 
+    line-height: 0px; 
+}  
+img { 
+    display: flex; 
+    padding-top: 120px; 
+    width: 100%; 
+    width: 300px; 
+    padding-left: 250px; 
+} 
+.row { 
+    display: flex; 
+} 
+ 
+  
+nav{  
+    width: 100%;  
+}  
+.zero{  
+    display: flex;  
+    gap:50px;  
+}  
+ 
+.square{  
+    background: rgba(199, 201, 202, 0.8);  
+    width: 283.55px;  
+    height: 296.13px;  
+    left: 677px;  
+    top: 149.33px;  
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 50px; 
+}  
+.title_2{  
+    font-family: 'Roboto';  
+    font-style: normal;  
+    font-size: 15.1003px;  
+    line-height: 18px;  
+    color: #101010;  
+    padding: 0 0 0 26px;  
+}  
+.subtitle_2{  
+    font-family: 'Roboto';  
+    font-style: normal;  
+    font-weight: 400;  
+    font-size: 11.7447px;  
+    line-height: 14px;  
+    color: #101010;  
+    padding: 0 0 0 26px;  
+}  
+.all{  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+.square_4{  
+    width: 229.86px;  
+    height: 39.43px;  
+    background: #FFE100;  
+    font-family: 'Roboto';  
+    font-style: normal;  
+    font-weight: 500;  
+    font-size: 11.7447px;  
+    line-height: 14px;  
+    color: #000000;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+}  
+input{  
+    width: 229.86px;  
+    height: 39.43px;  
+    background-color:#fff;  
+    margin-top: 10px;
+}  
+.phone{  
+    display: none;  
+    color: #FFFFFF;  
+}  
+
+
+.row { 
+    justify-content: space-around; 
+} 
+ 
+@media screen and (max-width:768px) {  
+    header{  
+        flex-direction: column;  
+       }  
+       nav {  
+        display: none;  
+      }  
+    .phone{  
+        display: block;  
+    }   
+    ul{  
+        order:1;  
+    }  
+    .text{  
+        flex-direction: column;  
+        order:2;  
+    }  
+    .square{  
+        order:3;  
+    }  
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.7447px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.text-main {
+    display: flex;
+    top: 900px;
+    color: black;
+}
+
+.img1 {
+    margin-top: 50px;
+    position: absolute;
+    width: 223,15px;
+    height: 301,17px;
+    left: 590px;
+    top: 1100px;
+}
+.img1_img{
+    width: 100%;
+}
+
+.img2 {
+    height: 150px;
+    width: 300px ;
+    top: 780px;
+    left: 580px;
+    position: absolute;
+}
+
+.img2_img{
+    width: 100%;
+}
+
+.img3 {
+    height: 200px ;
+    position: absolute;
+    left: 300px;
+    top: 838px;
+}
+
+.img-img{
+    width: 100%;
+}
+
+.imte{
+    height: 42px;
+    width: 223.98818969726562px;
+    left: -300px;
+    top: 600.758544921875px;
+    position: relative;
+    color: #000000;
+}
+.inte{
+    position: relative;
+    color: #000000;
+    top: 400px ;
+    left: 5px;
+
+}
+
+.vec{
+    height: 80.53507232666016px;
+    width: 1400px;
+    top: 690px;
+    position: relative;
+    left: -258px;
+}
